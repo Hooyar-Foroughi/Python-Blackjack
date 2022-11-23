@@ -1,5 +1,5 @@
 # Python-Blackjack
-Simple Blackjack game made with Python Turtle Graphics 
+Simple Blackjack game designed with Python Turtle Graphics 
 
 > <img src="https://github.com/Hooyar-Foroughi/Python-Blackjack/blob/main/screenshots/Screenshot1.png?raw=true" width="750"/>
 
