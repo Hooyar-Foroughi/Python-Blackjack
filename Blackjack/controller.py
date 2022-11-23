@@ -52,7 +52,7 @@ def initializeBoard(wn, turtles):
     turtles[1].penup()
     turtles[1].sety(-20)
     turtles[1].pendown()
-    turtles[1].write("Press enter to begin", align="center", font=("Monotype Corsiva", 75))
+    turtles[1].write("Press 'Enter'/'Return' to begin", align="center", font=("Monotype Corsiva", 50))
     turtles[3].speed(0)
     turtles[5].speed(0)
     turtles[6].speed(0)
@@ -377,7 +377,7 @@ def postAction(wn, turtles, cards, player_hand, player_score, dealer_hand, deale
 
     turtles[1].clear()
     turtles[1].color("red")
-    turtles[1].write("GAME OVER  -  Press 'Enter' to play again or 'q' to quit", align="center",
+    turtles[1].write("GAME OVER  -  Press 'Enter'/'Return' to play again or 'q' to quit", align="center",
              font=("Copperplate Gothic Bold", 33, "bold"))
     wn.onkeypress(functools.partial(reset_turtles, wn, turtles, cards, player_hand, player_score, dealer_hand, dealer_score,
                           pdeck, in_game, cards_on_table, card_turtles, card_turtles1, player_wins, winstreak), 'Return')
