@@ -496,7 +496,7 @@ def start(wn, turtles, cards, player_hand, player_score, dealer_hand, dealer_sco
         turtles[5].sety(0)
         turtles[5].pendown()
         turtles[5].color("white")
-        turtles[5].write("Would you like to draw a card? ('Hit' or 'Stay')", align="center",
+        turtles[5].write("Would you like to draw a card? ('h' for hit, 's' for stay)", align="center",
                  font=("Copperplate Gothic Bold", 26))
 
         wn.onkeypress(None, 'Return')
