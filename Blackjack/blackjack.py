@@ -6,7 +6,7 @@ from controller import initializeBoard, getDeck, ReturnClick
 
 def main():
     
-    imagePath = os.path.abspath(os.path.join(os.path.dirname(__file__), 'images/'))
+    imagePath = os.path.abspath(os.path.join(os.path.dirname(__file__), 'card images/'))
     os.chdir(imagePath)
 
     odeck = getDeck()
